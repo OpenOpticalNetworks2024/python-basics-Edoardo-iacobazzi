@@ -121,5 +121,9 @@ frase = stringa1[:posizione_spazio] + stringa2 + stringa1[posizione_spazio:]
 print("emma compare: ",counter_emma, " volte")
 print(frase)
 
+############# ESERCIZIO 8 ############
 
+
+babracadabra = 0
+lololollo= 0
 
