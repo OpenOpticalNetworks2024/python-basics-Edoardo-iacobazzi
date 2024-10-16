@@ -123,7 +123,29 @@ print(frase)
 
 ############# ESERCIZIO 8 ############
 
+frase8 = input("insersici una stringa: ")
+frase8_2 = input("insersici un'altra stringa: ")
+frase_new = ""
+counter = 0
+spazio = ' '
 
-babracadabra = 0
-lololollo= 0
+lunghezza1 = len(frase8)
+lunghezza2 = len(frase8_2)
+
+for char in frase8 and frase8_2:
+    if counter == 0:
+        frase_new = frase_new + frase8[counter] + frase8_2[counter] + spazio
+    if counter == lunghezza1//2:
+        frase_new = frase_new +  frase8[counter] + spazio
+    if counter == lunghezza2//2:
+        frase_new = frase_new +  frase8_2[counter] + spazio
+    if counter == lunghezza1-1:
+        frase_new = frase_new +  frase8[counter] + spazio
+    if counter == lunghezza2-1:
+        frase_new = frase_new +  frase8_2[counter] + spazio
+    counter += 1
+
+print("frase finale: ",frase_new)
+
+
 
